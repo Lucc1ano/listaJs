@@ -1,0 +1,182 @@
+lista de exercicios
+-------------------
+q1
+var num1 = parseFloat(prompt("digite um numero"));
+var num2 = parseFloat(prompt("digite mais um numero"));
+var soma = num1+num2;
+document.write("a soma é: " + soma)
+-------------------
+q2
+var num1 = parseFloat(prompt("digite um numero"));
+var num2 = parseFloat(prompt("digite mais um numero"));
+var soma = num1-num2;
+document.write("a subtraçao é: " + soma)
+-------------------
+q3
+var num1 = parseFloat(prompt("digite um numero"));
+var num2 = parseFloat(prompt("digite mais um numero"));
+var soma = num1*num2;
+document.write("a multiplicaçao é: " + soma)
+-------------------
+q4
+var num1 = parseFloat(prompt("digite um numero"));
+var num2 = parseFloat(prompt("digite mais um numero"));
+var soma = num1/num2;
+document.write("a divisao é: " + soma)
+-------------------
+q5
+var num1 = parseFloat(prompt("digite um numero"));
+var num2 = parseFloat(prompt("digite mais um numero"));
+var soma = num1%num2;
+document.write("a divisao é: " + soma)
+-------------------
+q6
+var num1 = parseFloat(prompt("digite um numero"));
+num1++;
+document.write(num1)
+-------------------
+q7
+var num1 = parseFloat(prompt("digite um numero"));
+num1--;
+document.write(num1) 
+-------------------
+q8
+var num1 = parseFloat(prompt("digite um numero"));
+var num2 = num1
+document.write(num2)
+-------------------
+q9
+var num1 = parseFloat(prompt("digite um numero"));
+num1+=10;
+document.write(num1)
+-------------------
+q10
+var num1 = parseFloat(prompt("digite um numero"));
+num1-=5;
+document.write(num1)
+-------------------
+q11
+var num1 = parseFloat(prompt("digite um numero"));
+num1*=4;
+document.write(num1)
+-------------------
+q12
+var num1 = parseFloat(prompt("digite um numero"));
+num1/=2;
+document.write(num1)
+-------------------
+q13
+var num1 = parseFloat(prompt("digite um numero"));
+num1%=3;
+document.write(num1)
+-------------------
+q14
+var num1 = parseFloat(prompt("digite um numero"));
+if (num1 > 0) {
+        document.write("O número é positivo.");
+    } else if (num1 < 0) {
+        document.write("O número é negativo.");
+    } else {
+        document.write("O número é zero.");
+    }
+    document.write(num1)
+------------------
+q15
+var num1 = parseFloat(prompt("digite um numero"));
+    if (num1 % 2 === 0) {
+        document.write("O número é par.");
+    } else {
+        document.write("O número é ímpar.");
+    }
+    document.write(num1)
+-----------------
+q16
+var num1 = parseFloat(prompt("digite um numero"));
+var num2 = parseFloat(prompt("digite outro numero"));
+    if (num1 > num2) {
+        document.write("O maior número é: " + num1);
+    } else if (num2 > num1) {
+       document.write("O maior número é: " + num2);
+    } else {
+        document.write("Os números são iguais.");
+    }
+-----------------
+q17
+var num1 = parseFloat(prompt("digite sua idade"));
+if (num1 > 18) {
+        document.write("A pessoa é maior de 18 anos.");
+    } else if (idade === 18) {
+        document.write("A pessoa tem 18 anos.");
+    } else {
+        document.write("A pessoa é menor de 18 anos.");
+    }
+-----------------
+q18
+var num1 = parseInt(prompt("digite um numero"));
+if (num1 >= 0 && num1 <= 100) {
+        document.write("O número está no intervalo de 0 a 100.");
+    } else {
+        document.write("O número está fora do intervalo de 0 a 100.");
+    } 
+-----------------
+q19
+var letra = (prompt("digite uma letra"));
+if ("aeiou".includes(letra)) {
+        document.write("A letra '" + letra + "' é uma vogal.");
+    } else if (letra.length === 1 && letra.match(/[a-z]/)) {
+        // Verifica se é uma consoante
+        document.write("A letra '" + letra + "' é uma consoante.");
+    } else {
+        document.write("Por favor, insira apenas uma letra.");
+    }
+ ----------------
+q20
+var num1 = (prompt("digite um numero"));
+var num2 = (prompt("digite um numero"));
+var num3 = (prompt("digite um numero"));
+
+let maior = num1;
+
+    if (num2 > maior) {
+        maior = num2;
+    }
+    if (num3 > maior) {
+        maior = num3;
+    }
+    document.write("O maior número é: " + maior);
+-----------------
+q21
+var ano = (prompt("digite uma ano"));
+if ((ano % 4 === 0 && ano % 100 !== 0) || (ano % 400 === 0)) {
+        document.write(ano + " é um ano bissexto.");
+    } else {
+        document.write(ano + " não é um ano bissexto.");
+    } 
+-----------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
