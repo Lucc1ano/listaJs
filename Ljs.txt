@@ -153,8 +153,97 @@ if ((ano % 4 === 0 && ano % 100 !== 0) || (ano % 400 === 0)) {
         document.write(ano + " não é um ano bissexto.");
     } 
 -----------------
+q22
+var num1 = parseInt(prompt("Digite o primeiro número:"));
+var num2 = parseInt(prompt("Digite o segundo número:"));
 
+if (num1 > 0 && num2 > 0) {
+    alert("Ambos os números são positivos.");
+} else if (num1 > 0 || num2 > 0) {
+    alert("Um dos números é positivo.");
+} else {
+    alert("Nenhum dos números é positivo.");
+}
+-----------------
+q23
+var num1 = parseInt(prompt("Digite o primeiro número:"));
+var num2 = parseInt(prompt("Digite o segundo número:"));
 
+if(num1 > 0){document.write(num1," numero um é postivo<br>")}
+if(num2 >0){document.write(num2," numero dois é positivo<br>")}
+
+if(num1 < 0 ){document.write(num1," num1 é negativo <br>")}
+if(num2 < 0 ){document.write(num2," num2 é negativo")}
+-----------------
+q24
+var numero = parseInt(prompt("Digite um número:"));
+
+if (numero > 0 && numero % 2 === 0) {
+    document.write(numero + " é par e positivo.");
+} else if (numero > 0) {
+    document.write(numero + " é positivo, mas não é par.");
+} else if (numero % 2 === 0) {
+     document.write(numero + " é par, mas não é positivo.");
+} else {
+     document.write(numero + " não é par nem positivo.");
+}
+
+-----------------
+q25
+var numero = parseInt(prompt("Digite um número:"));
+
+if (numero % 5 !== 0) {
+    document.write(numero + " não é múltiplo de 5.");
+} else {
+    document.write(numero + " é múltiplo de 5.");
+}
+-----------------
+q26
+var numero = parseInt(prompt("Digite um número:"));
+
+if (numero >= 1 && numero <=10){document.write("numero esta entre 1 e 10")}
+else{document.write("numero deve estar entre 1 e 10")}
+-----------------
+q27
+var num1 = parseInt(prompt("Digite o primeiro número:"));
+var num2 = parseInt(prompt("Digite o segundo número:"));
+
+if (num1 % 2 === 0 && num2 % 2 === 0) {
+    document.write("Ambos os números são pares.");
+} else if (num1 % 2 === 0 || num2 % 2 === 0) {
+    document.write("Um dos números é par.");
+} else {
+    document.write("Nenhum dos números é par.");
+}
+-----------------
+q28
+var num1 = parseInt(prompt("Digite o primeiro número:"));
+var num2 = parseInt(prompt("Digite o segundo número:"));
+
+var soma = num1 + num2;
+
+if (soma > 100){document.write(soma," AS SOMAS É MAIOR QUE 100")}
+if(soma == 100){document.write(soma," a soma dos dois é igual a 100")}
+if(soma < 100 ){document.write( soma , " A soma é menor que 100")}
+
+-----------------
+q29
+var num1 = parseInt(prompt("Digite o primeiro número:"));
+var num2 = parseInt(prompt("Digite o segundo número:"));
+
+if(num1 == num2){document.write("numeros são iguais")}
+else {document.write("numeros são diferentes")}
+
+-----------------
+q30
+var texto = prompt("Digite uma string:");
+
+if (texto.trim() !== "") {
+    alert("A string não está vazia.");
+} else {
+    alert("A string está vazia.");
+}
+-----------------
 
 
 
